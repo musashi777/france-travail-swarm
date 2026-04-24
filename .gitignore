@@ -1,0 +1,15 @@
+# Secrets
+.env
+
+# Cache et données locales
+.ft_token_cache
+historique_candidatures.json
+profiles/*.json
+*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
