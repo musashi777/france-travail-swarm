@@ -60,7 +60,7 @@ def create_full_cv_pdf(user_profile, job_offer, filename="CV_Adapte.pdf"):
     pdf.set_font('helvetica', '', 11)
     for skill in struct["competences"]:
         pdf.cell(5)
-        pdf.cell(0, 6, f"• {skill.replace('[OK]', '').replace('[+]', '')}", ln=True)
+        pdf.cell(0, 6, f"- {skill.replace('[OK]', '').replace('[+]', '')}", ln=True)
     pdf.ln(5)
 
     pdf.section_title("EXPÉRIENCE PROFESSIONNELLE")
